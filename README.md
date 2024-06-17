@@ -5,7 +5,12 @@ Utility to create HTML `classList` strings from any argument. With a shorthand:
 ## Install
 
 ```sh
-$ bundle add class_list
+$ # bundle add class_list # doesn't work, naming conflict
+```
+
+```ruby
+# in Gemfile, for now
+gem "class_list", github: "mikker/class_list"
 ```
 
 ## Usage
