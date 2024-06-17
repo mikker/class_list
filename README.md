@@ -10,7 +10,7 @@ $ bundle add class_list
 
 ## Usage
 
-```eruby
+```erb
 <% button = CL("rounded", ['bg-black'], { "bg-white": true }) %>
   <!-- CL == ClassList.new -->
 
