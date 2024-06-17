@@ -1,5 +1,7 @@
 # frozen_string_literal: true
 
+require "set"
+
 require_relative "class_list/version"
 require_relative "class_list/shorthand" unless ENV["CLASS_LIST_NO_SHORTHAND"]
 
